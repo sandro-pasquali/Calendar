@@ -1,0 +1,19 @@
+<html><head><title></title>
+<script language="Javascript" src="Calendar.js"></script>
+<script language="Javascript">
+
+// set up current year
+var $YEARS = new Array()
+$YEARS[0] = new Calendar(2000);
+
+</script>
+
+<link rel="stylesheet" href="calendar.css" type="text/css">
+
+</head>
+<body onload="$YEARS[0].draw('CALENDAR2001');" bgcolor=#cccc99 onselectstart="return false;">
+
+<DIV ID="CALENDAR2001" STYLE="position:absolute; top:10; left:100;"></DIV>
+
+</body>
+</html>

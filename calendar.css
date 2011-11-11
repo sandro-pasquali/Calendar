@@ -1,0 +1,62 @@
+
+
+.DAYNUMBER
+  {
+    position:absolute;
+    width:14;
+    height:10;
+    font-size:10px;
+    padding:3px;
+    font-family:Helvetica,Verdana;
+    cursor:hand;
+  }
+
+.DAY
+  {
+    position:absolute;
+    background-color:#dddddd;
+    width:22;
+    height:22;
+    cursor: hand;
+  }
+
+.MONTH
+  {
+    position:absolute;
+    width:160;
+    background-color:none;
+    padding:2px;
+    cursor: default;
+  }
+
+.MONTHNAME
+  {
+    position:absolute;
+    top:0;
+    left:0;
+    width:160;
+    background-color:#575757;
+    height:16;
+    color:#ffffff;
+    font-family:Verdana,Arial;
+    font-size:10px;
+    font-weight:bold;
+    padding:1px;
+    cursor: default;
+  }
+
+.MONTHWEEKDAY
+  {
+    position:absolute;
+    width:22;
+    height:16;
+    top:17;
+    background-color:#ffffff;
+    font-family:Verdana,Arial;
+    font-size:9px;
+    padding:1px,1px,1px,2px;
+    cursor: default;
+  }
+
+
+
